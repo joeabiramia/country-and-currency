@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Countries and Currencies</title>
+</head>
+<style>
+     body{
+    background-image: url("https://www.tinggly.com/journal/wp-content/uploads/2016/04/shutterstock_261370952-624x416.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+</style>
+<body>
+    <div>
+        <label for="country-select">Select a country:</label>
+        <select id="country-select"></select>
+    </div>
+    <div>
+        <img id="flag" alt="Country Flag" style="display:none">
+    </div>
+    <div>
+        <h3>Currencies:</h3>
+        <ul id="currencies-list"></ul>
+    </div>
+    <div>
+        <h3>Exchange Rates:</h3>
+        <table id="exchange-rates-table" style="display:none">
+            <tr>
+                <th>Currency</th>
+                <th>Exchange Rate (USD)</th>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
